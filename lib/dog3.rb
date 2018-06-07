@@ -1,0 +1,19 @@
+# dog.rb
+class Dog 
+  
+  def initialize=(bark, sit)
+  @bark=bark
+  @sit=sit
+end 
+
+def bark
+  @bark
+end
+
+def bark=(bark)
+  @bark=bark
+end
+
+dog = Dog.new("woof", "sit")
+
+puts dog.bark
